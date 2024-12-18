@@ -79,4 +79,8 @@ a.bibref {
         background-color: #1e1e1e !important;
         color: #dcdcdc;
     }
+
+    img {
+        background: transparent;
+    }
 }
