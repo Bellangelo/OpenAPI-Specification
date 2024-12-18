@@ -71,3 +71,12 @@ th code {
 a.bibref {
     text-decoration: underline;
 }
+
+@media (prefers-color-scheme: dark) {
+    pre,
+    table tr:nth-child(2n),
+    table tr {
+        background-color: #1e1e1e !important;
+        color: #dcdcdc;
+    }
+}
