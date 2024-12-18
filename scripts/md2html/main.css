@@ -83,4 +83,17 @@ a.bibref {
     img {
         background: transparent;
     }
+
+    .logo img {
+        display: none;
+    }
+
+    .logo::before {
+        content: "";
+        display: inline-block;
+        height: 48px;
+        width: 200px;
+        background: url("https://raw.githubusercontent.com/OAI/OpenAPI-Style-Guide/refs/heads/main/graphics/bitmap/OpenAPI_Logo_White.png") no-repeat center / contain;
+        vertical-align: middle;
+    }
 }
