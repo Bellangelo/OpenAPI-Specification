@@ -149,6 +149,7 @@ function preface(title,options) {
     preface += '<h2>Status of This Document</h2>';
     preface += 'The source-of-truth for this specification is the HTML file referenced above as <em>This version</em>.';
     preface += '</section>';
+    preface += '<link rel="stylesheet" type="text/css" href="https://www.w3.org/StyleSheets/TR/2021/dark.css" media="(prefers-color-scheme: dark)">';
 
     return preface;
 }
