@@ -2,7 +2,7 @@
 title: Home
 description: HTML Spec. and extensible registry
 layout: default
----
+--- 
 
 # OpenAPI Initiative Publications
 
