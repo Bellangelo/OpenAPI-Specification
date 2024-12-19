@@ -129,6 +129,7 @@ function preface(title,options) {
     preface += '<meta name="description" content="The OpenAPI Specification (OAS) defines a standard, programming language-agnostic interface description for HTTP APIs.">';
 
     // ReSpec
+    preface += '<meta name="color-scheme" content="light dark">';
     preface += '<script src="../js/respec-w3c.js" class="remove"></script>';
     preface += `<script class="remove">var respecConfig = ${JSON.stringify(respec)};</script>`;
     try {
@@ -149,7 +150,6 @@ function preface(title,options) {
     preface += '<h2>Status of This Document</h2>';
     preface += 'The source-of-truth for this specification is the HTML file referenced above as <em>This version</em>.';
     preface += '</section>';
-    preface += '<link rel="stylesheet" type="text/css" href="https://www.w3.org/StyleSheets/TR/2021/dark.css" media="(prefers-color-scheme: dark)">';
 
     return preface;
 }
